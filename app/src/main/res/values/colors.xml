@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="appBlue">#ff7878</color>
+    <!--<color name="appBlue">#5ce5d8</color>-->
+    <color name="loadingGreen">#00dcc5</color>
+
+    <!--半透明-->
+    <color name="translucent_black">#89000000</color>
+
+    <color name="bg_pink">#ff74bf</color>
+    <color name="bg_red">#f9586e</color>
+    <color name="bg_blue">#6baaff</color>
+    <color name="bg_green">#5ce8a1</color>
+    <color name="bg_yellow_dark">#eda948</color>
+    <color name="bg_purple">#f282f6</color>
+    <color name="bg_purple_dark">#a579ff</color>
+
+    <color name="black">#333333</color>
+    <color name="grayC">#CCCCCC</color>
+    <color name="text_gray_color">#999999</color>
+    <color name="text_51_gray">#515151</color>
+    <color name="text_deep_gray">#666666</color>
+    <color name="backgroundGray">#f0f0f0</color>
+    <color name="text_horn_purple">#ff0090</color>
+    <color name="text_red_color">#FE1500</color>
+    <color name="button_orange_color">#ff8800</color>
+    <color name="security_code_yellow">#fdad44</color>
+    <color name="bg_alarm_green">#0dcc5e</color>
+    <color name="bg_text_answer_green">#26b500</color>
+    <color name="app_blue_high">#00a19c</color>
+    <color name="bg_science_light_green">#80bfc4</color>
+    <color name="bg_50_green">#36e1b6</color>
+    <color name="bg_38c3b4_green">#38c2b4</color>
+    <color name="bg_50_light_green">#e045ebda</color>
+    <color name="text_remarks_blue">#e02ae9d5</color>
+    <color name="img_blue">#c6f2ee</color>
+    <color name="lineGray">#dfdfdf</color>
+    <color name="white">#ffffff</color>
+    <color name="base_color">#ff7878</color>
+    <!--<color name="base_color">#5CE5D8</color>-->
+    <color name="search_edit_text_stroke_color">#d2d2d2</color>
+    <color name="card_title_background">#EFEFEF</color>
+    <color name="text_notice_color">#09E6CF</color>
+    <color name="text_menstruation">#8EE6DD</color>
+    <color name="text_predict">#BE94FD</color>
+    <color name="text_safe">#A0E823</color>
+    <color name="text_easy_pregnant">#F899FF</color>
+    <color name="text_ovulation">#FF7800</color>
+
+
+    <!--tag  -->
+    <color name="title">#242424</color>
+    <color name="dash_line">#a7a7aa</color>
+    <color name="grey">#757575</color>
+    <color name="primary_dark">#D32F2F</color>
+    <color name="primary_light">#FFCDD2</color>
+    <color name="accent">#03A9F4</color>
+    <color name="primary_text">#2a2a2a</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#F8F8F8</color>
+    <color name="divider">#B6B6B6</color>
+
+    <color name="gray">#eeeeee</color>
+    <color name="COLOR_4C">#4C4C4C</color>
+    <color name="navpage">#FFE1E8EB</color>
+</resources>

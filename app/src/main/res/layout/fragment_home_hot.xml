@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:indicator="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_hot"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></android.support.v4.view.ViewPager>
+
+    <com.wiseyep.tubebaby.baby.activity.utils.Xcircleindicator
+        android:id="@+id/Xcircleindicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#00ff00"
+        android:layout_marginBottom="10dp"
+        indicator:circleInterval="10dp"
+        indicator:fillColor="#00ff00"
+        indicator:radius="15dp"
+        indicator:strokeColor="#000000" />
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/ll_hot"
+        android:layout_below="@id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/iv_hot"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="#000000"
+            android:layout_width="20dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/tv_hot"
+            android:text="启孕咨询"
+            android:textSize="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lv_hot"
+        android:layout_below="@id/ll_hot"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</RelativeLayout>
