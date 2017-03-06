@@ -1,0 +1,51 @@
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundGray"
+    >
+
+<com.zhy.autolayout.AutoRelativeLayout
+    android:id="@+id/ll_top"
+    android:gravity="center"
+    android:background="@color/appBlue"
+    android:layout_width="match_parent"
+    android:layout_height="229px">
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_rounded_stroke_white"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rb_hot"
+                android:layout_width="115dp"
+                android:layout_height="40dp"
+                android:background="@drawable/selector_check_left_white"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:text="热门"
+                android:textColor="@drawable/selector_check_text_blue_black" />
+            <RadioButton
+                android:id="@+id/rb_online_consulting"
+                android:layout_width="115dp"
+                android:layout_height="40dp"
+                android:background="@drawable/selector_check_right_white"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:text="在线咨询"
+                android:textColor="@drawable/selector_check_text_blue_black" />
+        </RadioGroup>
+    </com.zhy.autolayout.AutoRelativeLayout>
+    <com.zhy.autolayout.AutoFrameLayout
+        android:id="@+id/home_frame"
+        android:layout_below="@id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.zhy.autolayout.AutoFrameLayout>
+
+</com.zhy.autolayout.AutoRelativeLayout>
